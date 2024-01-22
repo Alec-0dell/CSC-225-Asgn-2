@@ -1,0 +1,6 @@
+; Reverses the value at 0x3050 into 0x3051.
+; CSC 225, Assignment 2
+; Given code, Winter '24
+
+0011 0000 0000 0000     ; Start at 0x3000.
+                        ; TODO: Complete this program.
