@@ -3,4 +3,10 @@
 ; Given code, Winter '24
 
 0011 0000 0000 0000     ; Start at 0x3000.
-                        ; TODO: Complete this program.
+0010 000 001001111      ; Load 0x3050? into R0 
+0001 001 000 1 00000    ; Add R1 = R0 + 0 
+0000 011 0 0000 0001    ; If R0 is pos jump past next line 
+0001 001 000 1 00001    ; Add R1 = R0 + 1 
+0001 000 000 0 00 001   ; Add R0 = R0 + R1
+0011 000 001001010      ; Store R0 in 0x3050
+1111 0000 00100101      ; Halt.
